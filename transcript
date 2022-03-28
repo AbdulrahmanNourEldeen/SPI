@@ -1,0 +1,11 @@
+# vsim work.SPI 
+# Start time: 00:25:45 on Mar 29,2022
+# Loading work.SPI
+# Loading work.clk_div
+# Loading work.mux
+# Loading work.clk_logic
+# Loading work.counter
+# Loading work.control_unit
+# Loading work.shift_reg
+# End time: 00:25:50 on Mar 29,2022, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
