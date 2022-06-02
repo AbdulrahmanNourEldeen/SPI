@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dE:/EDU/prjs/SPI
 vclk_div
-!s110 1648503168
+!s110 1648509318
 !i10b 1
 !s100 QTZ4gVlm07Yn@O[R?_TDZ0
 I6ABgWmgNzV:<;nlB4D3Z33
@@ -23,13 +23,13 @@ Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1648503167.000000
+!s108 1648509318.000000
 !s107 ./clk_div.v|
 !s90 ./clk_div.v|
 !i113 1
 Z3 tCvgOpt 0
 vclk_logic
-!s110 1648503171
+!s110 1648509315
 !i10b 1
 !s100 D_7NLdl[=E^_2;UbboQcH1
 IZldF@>0FZSPW7S86=L4E:0
@@ -43,19 +43,19 @@ R2
 r1
 !s85 0
 31
-!s108 1648503171.000000
+!s108 1648509315.000000
 !s107 ./clk_logic.v|
 !s90 ./clk_logic.v|
 !i113 1
 R3
 vcontrol_unit
-!s110 1648500121
+!s110 1648509313
 !i10b 1
-!s100 89CD]d;^`R6U0PaK`A5f:3
-IzbXo`1UeNPa^lcg_RGfjS2
+!s100 oFlI<Q`^eGG2:XQzO2ZSQ0
+Ikm_kV^f0^409BB?JRaR6z1
 R1
 R0
-w1648500119
+w1648507866
 8./control_unit.v
 F./control_unit.v
 L0 1
@@ -63,19 +63,19 @@ R2
 r1
 !s85 0
 31
-!s108 1648500121.000000
+!s108 1648509313.000000
 !s107 ./control_unit.v|
 !s90 ./control_unit.v|
 !i113 1
 R3
 vcounter
-!s110 1648504324
+!s110 1648509310
 !i10b 1
-!s100 R19gJj<4aznL0C1?imhUO1
-I8A5_U<QRc6?`e2dNHS6hU0
+!s100 VK@MDDH]G3A2m4JISPo9a2
+II@hCX?=WUHO1BJ64Emb^D3
 R1
 R0
-w1648504321
+w1648504591
 8./counter.v
 F./counter.v
 L0 1
@@ -83,13 +83,13 @@ R2
 r1
 !s85 0
 31
-!s108 1648504324.000000
+!s108 1648509310.000000
 !s107 ./counter.v|
 !s90 ./counter.v|
 !i113 1
 R3
 vmux
-!s110 1648494337
+!s110 1648509302
 !i10b 1
 !s100 CO;<;nKa]b8n1FCDJBN9B3
 INcTnCQGSR0_9@^Pc2GUCW2
@@ -103,19 +103,19 @@ R2
 r1
 !s85 0
 31
-!s108 1648494337.000000
+!s108 1648509302.000000
 !s107 ./mux.v|
 !s90 ./mux.v|
 !i113 1
 R3
 vshift_reg
-!s110 1648497183
+!s110 1648509300
 !i10b 1
-!s100 K^^eZ5l;elPimX@DlgUS63
-I<X:^<?_:ScEeSIn]bV8J`2
+!s100 >H]:KdkR;d1]T>j9Ld5S63
+ILd7hXa:aLH=>1RLei?AY10
 R1
 R0
-w1648497176
+w1648509279
 8./shift_reg.v
 F./shift_reg.v
 L0 1
@@ -123,13 +123,13 @@ R2
 r1
 !s85 0
 31
-!s108 1648497183.000000
+!s108 1648509300.000000
 !s107 ./shift_reg.v|
 !s90 ./shift_reg.v|
 !i113 1
 R3
 vSPI
-!s110 1648506278
+!s110 1648509321
 !i10b 1
 !s100 YXz09[TE3]Q<9mi74k4NA2
 I]hRP:RNolf?db0WQXzdGS3
@@ -143,7 +143,7 @@ R2
 r1
 !s85 0
 31
-!s108 1648506278.000000
+!s108 1648509321.000000
 !s107 ./SPI.v|
 !s90 ./SPI.v|
 !i113 1

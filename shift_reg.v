@@ -1,5 +1,5 @@
 module shift_reg (
-    output  reg            serial_out,
+    output  wire            serial_out,
 
     input   wire    [7:0]   parallel_in,
     input   wire            serial_in,
@@ -9,6 +9,7 @@ module shift_reg (
     input   wire            rst
 );
     reg     [7:0]   data;
+    wire    [7:0]   data_next;
 
     always @(posedge clk or negedge rst) 
         begin
@@ -23,11 +24,12 @@ module shift_reg (
                     end
                 else if (shift)
                     begin
-                        serial_out  <= data[0];
-                        data        <= data >> 1;
-                        data[7]     <= serial_in;
+                        data <= data_next;
                     end
         end
     
+
+    assign  data_next   = {serial_in,data[7:1]};
+    assign  serial_out  = data[0];
 
 endmodule

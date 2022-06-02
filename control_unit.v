@@ -43,7 +43,7 @@ module control_unit (
                     end
                 LOAD:
                     begin
-                        enable_clk =    1'b0;
+                        enable_clk =    1'b1;
                         shift      =    1'b0;
                         load       =    1'b1;
                         count      =    1'b0;

@@ -1,5 +1,5 @@
 # vsim work.SPI 
-# Start time: 00:25:45 on Mar 29,2022
+# Start time: 01:15:25 on Mar 29,2022
 # Loading work.SPI
 # Loading work.clk_div
 # Loading work.mux
@@ -7,5 +7,106 @@
 # Loading work.counter
 # Loading work.control_unit
 # Loading work.shift_reg
-# End time: 00:25:50 on Mar 29,2022, Elapsed time: 0:00:05
-# Errors: 0, Warnings: 0
+add wave -position insertpoint  \
+sim:/SPI/SCLK \
+sim:/SPI/MOSI \
+sim:/SPI/CLK \
+sim:/SPI/RST \
+sim:/SPI/CPOL \
+sim:/SPI/CPHA \
+sim:/SPI/MISO \
+sim:/SPI/Data_Valid \
+sim:/SPI/Data \
+sim:/SPI/div_by
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: user  Hostname: ABDONOUR  ProcessID: 11660
+#           Attempting to use alternate WLF file "./wlftbb4s29".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbb4s29
+force -freeze sim:/SPI/div_by 000 0
+force -freeze sim:/SPI/Data 11001010 0
+force -freeze sim:/SPI/Data_Valid 0 0
+force -freeze sim:/SPI/MISO 1 0
+force -freeze sim:/SPI/CPHA 0 0
+force -freeze sim:/SPI/CPOL 1 0
+force -freeze sim:/SPI/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/SPI/RST 1 0
+run
+force -freeze sim:/SPI/RST 0 0
+run
+force -freeze sim:/SPI/RST 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/SPI/Data_Valid 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 01:24:04 on Mar 29,2022, Elapsed time: 0:08:39
+# Errors: 0, Warnings: 2
